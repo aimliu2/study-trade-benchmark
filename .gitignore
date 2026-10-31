@@ -9,6 +9,8 @@ MEMORY.md
 src
 .DS_Store
 data
+data-binance
+docs/reference
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
