@@ -260,7 +260,7 @@ Stage B. 100 / 200 bars and 1y / 2y are dropped.**
 
 Also in the last cell of `ffd-z-plot1.ipynb` (updated to match). The original
 2026-10-31 version raised d on a persistent ADF failure. **That part is removed:**
-see the d row below and [ADF failure is a sign of regime](../reports/m1-fracdiff-adf-failure.md).
+see the d row below and [ADF failure is a sign of regime](../reports/r1-fracdiff-adf-failure.md).
 
 | What | When | Action |
 |---|---|---|

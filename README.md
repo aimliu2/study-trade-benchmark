@@ -7,6 +7,7 @@ Research notebooks testing whether simple trading strategies add value over pass
 | Folder | Study |
 |---|---|
 | [study-p1-baseline/](study-p1-baseline/) | P1 baseline: Buy & Hold vs DCA vs EMA 12/26 on 1D bars, 2026 Q1–Q3. See its [README](study-p1-baseline/README.md) and [report](study-p1-baseline/reports/P1-baseline.md) |
+| [study-p2-exposure/](study-p2-exposure/) | P2 exposure: fractionally differentiated (FFD) `log(close)` and its rolling Z as an exposure feature. [f1-fracdiff](study-p2-exposure/f1-fracdiff/) picks τ and d (d = 0.25, 445-bar window) — see its [README](study-p2-exposure/f1-fracdiff/README.md) and [report](study-p2-exposure/reports/r1-fracdiff-adf-failure.md) on why an ADF failure marks a trend regime rather than a reason to raise d |
 
 ## Setup
 

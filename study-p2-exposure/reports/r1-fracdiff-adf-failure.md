@@ -4,7 +4,7 @@ Date: 2026-11-01
 Setting: fixed-width window FFD on `log(close)`, daily, τ = 1e-4, **d = 0.25** for
 BTC, ETH, QQQ and XAUUSD (445-bar window), with rolling Z over 445 bars as the
 feature. d was chosen on 2021–2023 (smallest d with ADF p < 0.01). See
-[fracdiff README](../m1-fracdiff/README.md) §3.
+[fracdiff README](../f1-fracdiff/README.md) §3.
 
 ## Conclusion
 
@@ -21,12 +21,12 @@ its centre**, so any use of Z that expects mean reversion breaks for that period
 | 2024–25 | Strong rally | **Fail**: 2024 p ≈ 0.067, 2025 p ≈ 0.088, 2024–25 p ≈ 0.26 | Stuck at about +1 to +2 for two years |
 | 2025 → 2026 Q3 | Peak 2026-01-28 (≈ 5,420), back to ≈ 4,160 by September | **Pass again**: p ≈ 0.005 | Fell from about +2 to about −1 |
 
-Sources: [ffd-z-plot2](../m1-fracdiff/ffd-z-plot2.ipynb) (2023–25 health check),
-[ffd-z-plot3](../m1-fracdiff/ffd-z-plot3.ipynb) (d = 0.25 held to 2026 Q3).
+Sources: [ffd-z-plot2](../f1-fracdiff/ffd-z-plot2.ipynb) (2023–25 health check),
+[ffd-z-plot3](../f1-fracdiff/ffd-z-plot3.ipynb) (d = 0.25 held to 2026 Q3).
 
 ## Raising d would have chased the trend
 
-Simulated review on 2024-12-31 ([ffd-z-plot-xau03](../m1-fracdiff/ffd-z-plot-xau03.ipynb)),
+Simulated review on 2024-12-31 ([ffd-z-plot-xau03](../f1-fracdiff/ffd-z-plot-xau03.ipynb)),
 re-running the selection rule on the last 3 years:
 
 | Review | d asked for | What happened next |
