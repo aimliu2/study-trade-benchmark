@@ -11,6 +11,8 @@ src
 data
 data-binance
 docs/reference
+study-p2-exposure/f2-HAR-GARCH/forecasts
+study-p2-exposure/f2-HAR-GARCH/yz_data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
